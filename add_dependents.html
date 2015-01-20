@@ -1,0 +1,646 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+
+<title></title>
+
+<link href="styles/style.css"     		rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 		rel="stylesheet" type="text/css">
+<link href="styles/owl.carousel.css" 	 rel="stylesheet" type="text/css">
+<link href="styles/owl.theme.css" 		rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"		 rel="stylesheet" type="text/css">
+<link href="styles/colorbox.css"		 rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/cordova.js"></script>
+<script type="text/javascript" src="scripts/owl.carousel.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.swipebox.js"></script>
+<script type="text/javascript" src="scripts/colorbox.js"></script>
+<script type="text/javascript" src="scripts/snap.js"></script>
+<script type="text/javascript" src="scripts/contact.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/framework.js"></script>
+<script type="text/javascript" src="scripts/framework.launcher.js"></script>
+
+
+</head>
+<body>
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <em>Please be patient!</em>
+        </p>
+    </div>
+</div>
+
+
+<div class="all-elements">
+    <div id="sidebar" class="page-sidebar">
+        <div class="page-sidebar-scroll">
+        	<div class="sidebar-section">
+            	<p>Navigation</p>
+                <a href="#" class="sidebar-close"></a>
+            </div>
+            <div class="sidebar-header">
+                <a href="index.html" class="sidebar-logo"></a>
+                <a href="http://www.facebook.com/corp24med" class="facebook-sidebar"></a>
+                <a href="http://www.twitter.com/corp24med" class="twitter-sidebar"></a>
+            </div>
+            
+            <div class="navigation-items">
+                <div class="nav-item">
+                    <a href="index.html" class="home-nav">Home<em class="unselected-nav"></em></a>
+                </div> 
+                <div class="nav-item">
+                    <a href="#" class="features-nav submenu-deploy">My Account<em></em></a>
+                    <div class="nav-item-submenu">
+                    	<a href="details.html">My Details<em class="selected-sub-nav"></em></a>
+                    	<a href="dependance.html">Dependent's<em class="unselected-sub-nav"></em></a>
+                        <a href="remittances.html">Remittance<em class="unselected-sub-nav"></em></a>                        
+                        <a href="changepass.html">Login Details<em class="unselected-sub-nav"></em></a>
+                    </div>
+                </div> 
+                <div class="nav-item">
+                    <a href="messages.html" class="home-nav">Messages/News<em class="unselected-nav"></em></a>
+                </div>
+                <div class="nav-item">
+                    <a href="contact.html" class="contact-nav">Contact<em class="unselected-nav"></em></a>
+                </div> 
+                <div class="nav-item">
+                    <a href="#" class="close-nav">Close<em class="unselected-nav"></em></a>
+                </div> 
+                <div class="sidebar-decoration"></div>
+            </div>                   
+        </div>
+    </div>
+
+
+    <div id="content" class="page-content">
+    	<div class="page-header">
+        	<a href="#" class="deploy-sidebar"></a>
+            <p class="bread-crumb">Add Dependent's</p>
+            <a href="contact.html" class="deploy-contact"></a>
+        </div>
+        <div class="content-header">
+        	<a href="index.html" class="content-logo"></a>
+            <a href="http://www.facebook.com/corp24med" class="facebook-content"></a>
+            <a href="http://www.twitter.com/corp24med" class="twitter-content"></a>
+            <a href="#" class="logout-content"><img src="images/logout.png"></a>
+            <a href="login.html" class="login-content"><img src="images/login.png"></a>
+        </div>
+        
+        <div class="content">
+        	<div class="decoration"></div>
+                   
+            <div class="container no-bottom">
+            	<div class="section-title">
+                	<h4>Add Dependent's</h4>
+                    <em>add new dependent's to your medical aid</em>
+                </div>
+                <div class="decoration"></div>
+            </div> 
+                        
+            <div class="container">
+                <div class="contact-form no-bottom">                 
+                    <form action="" method="post" class="contactForm" id="add_dependents" name="add_dependents">
+                    	<input type="hidden" name="contract_number" id="contract_number" value="" />
+                        <fieldset> 
+                            <h4>Dependents Details</h4>
+                            <div class="decoration"></div>
+                            
+                            <div id="dependant_0">
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_0" id= "name_dependant_0" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_0" id= "surname_dependant_0" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_0" id="title_dependant_0" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_0" id="year_dependant_0" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_0" id="month_dependant_0" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_0" id="date_dependant_0" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_0" id= "idnumber_dependant_0" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_0" id="gender_dependant_0" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_1">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_1" style="display: none">
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_1" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_1" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_1" id="title_dependant_1" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_1" id="year_dependant_1" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_1" id="month_dependant_1" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_1" id="date_dependant_1" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_1" id= "idnumber_dependant_1" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_1" id="gender_dependant_1" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_2">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_2"  style="display: none">
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_2" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_2" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_2" id="title_dependant_2" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_2" id="year_dependant_2" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_2" id="month_dependant_2" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_2" id="date_dependant_2" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_2" id= "idnumber_dependant_2" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_2" id="gender_dependant_2" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_3">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_3" style="display: none">
+                            	<div class="decoration"></div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_3" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_3" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_3" id="title_dependant_3" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_3" id="year_dependant_3" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_3" id="month_dependant_3" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_3" id="date_dependant_3" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_3" id= "idnumber_dependant_3" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_3" id="gender_dependant_3" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_4">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_4" style="display: none">
+                            	<div class="decoration"></div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_4" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_4" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_4" id="title_dependant_4" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_4" id="year_dependant_4" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_4" id="month_dependant_4" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_4" id="date_dependant_4" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_4" id= "idnumber_dependant_4" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_4" id="gender_dependant_4" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_5">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_5" style="display: none">
+                            	<div class="decoration"></div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_5" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_5" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_5" id="title_dependant_5" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_5" id="year_dependant_5" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_5" id="month_dependant_5" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_5" id="date_dependant_5" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_5" id= "idnumber_dependant_5" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_5" id="gender_dependant_5" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_6">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_6" style="display: none">
+                            	<div class="decoration"></div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_6" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_6" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_6" id="title_dependant_6" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_6" id="year_dependant_6" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_6" id="month_dependant_6" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_6" id="date_dependant_6" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_6" id= "idnumber_dependant_6" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_6" id="gender_dependant_6" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_7">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_7" style="display: none">
+                            	<div class="decoration"></div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_7" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_7" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_7" id="title_dependant_7" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_7" id="year_dependant_7" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_7" id="month_dependant_7" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_7" id="date_dependant_7" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_7" id= "idnumber_dependant_7" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_7" id="gender_dependant_7" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_8">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_8" style="display: none">
+                            	<div class="decoration"></div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_8" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_8" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_8" id="title_dependant_8" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_8" id="year_dependant_8" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_8" id="month_dependant_8" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_8" id="date_dependant_8" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_8" id= "idnumber_dependant_8" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_8" id="gender_dependant_8" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+	                            <div class="formFieldWrap">
+	                            	<a href="#" class="button button-green" id="show_dependant_9">Add another dependent</a>
+	                            </div>
+                            </div>
+                            
+                            <div id="dependant_9" style="display: none">
+                            	<div class="decoration"></div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Name:<span>(required)</span></label>
+	                                <input type="text" name="name_dependant_9" id= "name_dependant_1" value="" placeholder="First name" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Surname:<span>(required)</span></label>
+	                                <input type="text" name="surname_dependant_9" id= "surname_dependant_1" value="" placeholder="Surname" class="input_field"/>
+	                            </div>
+	                        	<div class="formFieldWrap">
+	                                <label class="field-title" for="">Title:<span>(required)</span></label>
+	                                <select name="title_dependant_9" id="title_dependant_9" class="select_field">
+										<option value="">--SELECT TITLE--</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Ms">Ms</option>
+										<option value="Ambassador">Ambassador</option>
+										<option value="Dr">Dr</option>
+										<option value="Professor">Professor</option>
+										<option value="Engineer">Engineer</option>
+									</select>
+	                            </div> 
+	                            
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Birth Date:<span>(required)</span></label>
+	                                <input type="text" name="year_dependant_9" id="year_dependant_9" value="" placeholder="YYYY" size="5" class="small_input_field"/>
+	                                <input type="text" name="month_dependant_9" id="month_dependant_9" value="" placeholder="MM" size="3" class="small_input_field"/>
+	                                <input type="text" name="date_dependant_9" id="date_dependant_9" value="" placeholder="DD" size="3" class="small_input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">ID Number:<span>(required)</span></label>
+	                                <input type="text" name="idnumber_dependant_9" id= "idnumber_dependant_9" value="" placeholder="" class="input_field"/>
+	                            </div>
+	                            <div class="formFieldWrap">
+	                                <label class="field-title" for="">Gender:<span>(required)</span></label>
+	                                <select name="gender_dependant_9" id="gender_dependant_9" class="select_field">
+										<option value="">--SELECT GENDER--</option>
+										<option value="M">Male</option>
+										<option value="F">Female</option>
+									</select>
+	                            </div> 
+                            </div>
+                            
+                            <div class="processing">
+                            	<p align="center"><img src="images/circle.gif" align="center" /> Registering...</p>
+                            </div>
+                            <div class="formSubmitButtonErrorsWrap">
+                                <input type="submit" class="buttonWrap button button-green contactSubmitButton" id="contactSubmitButton" value="Add Dependants" data-formId="contactForm"/>
+                            </div>
+                        </fieldset>
+                    </form>  
+                    <div class="static-notification-green tap-dismiss-notification">
+                        <p class="center-text uppercase">A green notification! Tap to dismiss!</p>
+                    </div>
+                    <div class="static-notification-red tap-dismiss-notification">
+                        <p class="center-text uppercase">A red notification! Tap to dismiss!</p>
+                    </div>      
+                </div>
+            </div>
+            
+            <div class="decoration"></div>      
+            <div class="content-footer">
+            	<p class="copyright-content">Copyright 2014.<br> Corporate 24 Medical Aid</p>
+                <a href="#" class="go-up-footer"></a>
+                <a href="#" class="facebook-footer"></a>
+                <a href="#" class="twitter-footer"></a>
+                <div class="clear"></div>
+            </div>
+            
+              
+        </div>                
+    </div>  
+</div>
+<div id="loading_overlay">
+	<p>
+		<img src="images/ic_launcher.png" align="center"><br>
+    	<span class="loading">Loading, please wait!</span>
+    </p>
+</div>
+<div id="loading_fade"></div>
+<script type="text/javascript" src="scripts/PushNotification.js"></script>
+<script type="text/javascript" src="scripts/application.js"></script>
+<script type="text/javascript" src="scripts/push_functions.js"></script>
+<script type="text/javascript" src="scripts/sql_functions.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
